@@ -1,0 +1,87 @@
+<!Doctype html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" name='viewport' content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type='text/css' href='style.css' />
+</head>
+
+<body>
+    <header>
+        <h1 id='title'>My Survey Form</h1>
+        <p id='description' class="description">Will you be kind enough to review and critique?</p>
+    </header>
+    <main>
+        <form id='survey-form' action="https://www.emailmeform.com/">
+            <fieldset>
+                <label for="name-label" id='name-label' class="personal">
+                    <p>Name</p>
+                    <input type="text" name='name' id="name" placeholder="Enter your Fullname" required />
+                </label>
+                <label for="email-label" id='email-label' class="personal">
+                    <p>Email</p>
+                    <input type="email" name='email' id="email" placeholder="enter your email" required />
+                </label>
+                <label for="number-label" id='number-label' class="personal">
+                    <p>Phone Number</p>
+                    <input type="number" name='phone-number' id="phone-number" placeholder="07063636739" minlength=11
+                        maxlength=14 />
+                </label>
+                <label for="age" id="age" class="personal">
+                    <p>Age</p>
+                    <input type="number" name='age' id="number" placeholder=15 max="100" min="11" required />
+                </label>
+                <label for="bestFoods" class="personal">
+                    <p>Please select your best best food</p>
+                    <select name="food" id="dropdown" type="checkbox">
+                        <option value="blank">
+                            <p>Pick your Favs</p>
+                        </option>
+                        <option value="cereal">Cereals</option>
+                        <option value="junks">Anything Sweet</option>
+                        <option value="drinks">Anything Liquid</option>
+                        <option value="legume">Legumes</option>
+                        <option value="veges">Vegetables</option>
+                        <option value="all">Anything edible</option>
+
+                    </select>
+
+
+                </label>
+                <label for="mood" class="mood">
+                    <p>What Best Describes Your Mood Today? </p>
+                    <input type="radio" name="mood" id="happy" value="happy"> Happy
+                    <input type="radio" name="mood" id="sad" value="sad"> Sad
+                    <input type="radio" name="mood" id="indifferent" value="indifferent"> indifferent
+                    <input type="radio" name="mood" id="blank" value="blank"> Blank
+                </label>
+            </fieldset>
+
+            <fieldset class="learn">
+                <legend>
+                    <p>What are you learning at the moment?</p>
+                </legend>
+                <label for="html">HTML <input type="checkbox" id="html" name="interest" value="html" checked></label>
+                <label for="css">CSS <input type="checkbox" id="css" name="interest" value="css"></label>
+                <label for="js">javascript <input type="checkbox" id="js" name="interest" value="javascript"></label>
+                <label for="other">
+                    <p>Others</p> 
+                    <textarea type="textarea" id="other" name="interest"
+                        placeholder="php, python,..." row='3' cols='30px'>
+                </textarea>
+            </label>
+
+                <label for="comment">
+                    <p>Anything else you want to share with me?</p>
+                    <textarea name="comment" id="comment" cols="30px" rows="10px"></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Submit" id="submit" class="submit" />
+
+
+        </form>
+    </main>
+
+
+</body>

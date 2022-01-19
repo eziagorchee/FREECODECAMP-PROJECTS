@@ -1,0 +1,103 @@
+body {
+    margin: 10px;
+    padding: 0;
+    border: 0;
+    background: linear-gradient(0deg, rgba(117, 0, 150, 0.7), rgba(117, 190, 218, 1.0)), url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg') ;
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    text-align: center;
+    overflow: scroll;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+
+  }
+  label{
+      display: block;
+  }
+
+  fieldset {
+      border: 0;
+  }
+  form{
+    background-color: rgba(0, 95, 146, 0.789);
+    width: 50%;
+    padding: 0 30px;
+    margin: auto;
+    border: 1px solid black;
+    background-attachment: scroll;
+    padding-top: 24px;
+
+  }
+  header{
+    background-color: rgba(0, 95, 146, 0);
+    width: 50%;
+    padding: 0 30px;
+    margin: auto;
+    background-attachment: scroll;
+    margin-bottom: 24px;
+    padding-top: 24px;
+
+  }
+  .personal input,select {
+    border: 2px solid black;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+
+  }
+
+  .personal p {
+    color: white;
+    text-align: start;
+    font-size: 24px;
+    margin: auto;
+  }
+  .mood, .learn {
+    color: white;
+    text-align: start;
+    font-size: 24px;
+    margin: auto;
+    margin-bottom: 15px;
+
+  }
+  .submit{
+    font-size: 24px;
+    margin-bottom: 15px;
+
+  }
+
+  input, textarea {
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 16px;
+
+  }
+  p {
+    color: white;
+    text-align: start;
+    font-size: 24px;
+    margin: auto;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+
+  .description {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+
+  }
